@@ -1,12 +1,3 @@
-/* ITCS227LA Source Code Template Midterm Examination 2022-2023
-
-    Program: Computation of Grades using Function
-    Programmer: Jonnabelle T. Clavecilla
-    Section: BCS24
-    Start Date: April 17, 2023
-    End Date: April 20, 2023
-*/
-
 function getLetterGrade(grade) {
   switch (true) {
     case grade >= 90:
