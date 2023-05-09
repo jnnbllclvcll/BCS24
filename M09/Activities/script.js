@@ -4,8 +4,8 @@ const trainer = {
   age: 23,
   pokemon: [],
   friends: {
-    james: ["Onix", "Geodude"],
-    kaori: ["Staryu", "Starmie"],
+    James: ["Onix", "Geodude"],
+    Kaori: ["Staryu", "Starmie"],
   },
   talk() {
     console.log("Pikachu! I choose you!");
