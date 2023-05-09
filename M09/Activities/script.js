@@ -1,12 +1,11 @@
 
-// Trainer object
 const trainer = {
-  name: "Ash",
-  age: 10,
+  name: "Belle",
+  age: 23,
   pokemon: [],
   friends: {
-    brock: ["Onix", "Geodude"],
-    misty: ["Staryu", "Starmie"],
+    James: ["Onix", "Geodude"],
+    Kaori: ["Staryu", "Starmie"],
   },
   talk() {
     console.log("Pikachu! I choose you!");
