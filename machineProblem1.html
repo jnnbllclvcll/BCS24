@@ -1,4 +1,9 @@
-function calculateGrades() {
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grade Calculator</title>
+  <script>
+    function calculateGrades() {
       let students = [];
       let output = "<table><tr><th>Name</th><th>Class Participation</th><th>Summative Assessment</th><th>Grade</th><th>Letter Grade</th></tr>";
       let letters = ['F', 'D', 'C', 'B', 'A'];
@@ -51,3 +56,10 @@ function calculateGrades() {
       output += "</table>";
       document.getElementById("output").innerHTML = output;
     }
+  </script>
+</head>
+<body>
+  <button onclick="calculateGrades()">Calculate Grades</button>
+  <div id="output"></div>
+</body>
+</html>

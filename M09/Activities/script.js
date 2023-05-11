@@ -1,12 +1,11 @@
 
-// Trainer object
 const trainer = {
-  name: "Ash",
-  age: 10,
+  name: "Belle",
+  age: 23,
   pokemon: [],
   friends: {
-    brock: ["Onix", "Geodude"],
-    misty: ["Staryu", "Starmie"],
+    Keanu: ["Onix", "Geodude"],
+    Kaori: ["Staryu", "Starmie"],
   },
   talk() {
     console.log("Pikachu! I choose you!");
@@ -29,11 +28,12 @@ function Pokemon(name, level) {
   };
 }
 
-// Instantiate Pokemon objects
+
 const pikachu = new Pokemon("Pikachu", 5);
 const charmander = new Pokemon("Charmander", 3);
 const bulbasaur = new Pokemon("Bulbasaur", 4);
 
 
 pikachu.tackle(charmander);
+console.log(trainer.name);
 console.log(charmander.health);
