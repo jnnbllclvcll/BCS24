@@ -183,3 +183,8 @@ let pikachu = new Pokemon('Pikachu', 16);
 let snorlax = new Pokemon('Snorlax', 20);
 
 pikachu.tackle(snorlax);
+
+
+
+
+
