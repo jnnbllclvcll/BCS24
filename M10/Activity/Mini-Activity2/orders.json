@@ -1,0 +1,12 @@
+Orders
+User Id
+Transaction Date
+Status
+Total
+
+{
+	"user_id": 23571,
+	"transactionDate": 31022023,
+	"status": "delivered",
+	"total": 1250000,
+}

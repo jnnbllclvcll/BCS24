@@ -1,0 +1,16 @@
+Products
+Name
+Description
+Price
+Stocks
+Is Active?
+SKU
+
+{
+	"name": "iPad Air",
+	"description": "Serious performance in a thin and light design.",
+	"price": 25000,
+	"stocks": 150,
+	"is_Active": true,
+	"SKU": 987654321,
+}

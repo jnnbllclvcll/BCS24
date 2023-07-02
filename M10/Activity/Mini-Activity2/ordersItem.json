@@ -1,0 +1,14 @@
+Order Products
+Order ID
+Product ID
+Quantity
+Price
+Sub Total
+
+{
+	"order_id": 9871,
+	"product _id": 2035,
+	"quantity": 50,
+	"price": 25000,
+	"subTotal": 1250000,
+}
